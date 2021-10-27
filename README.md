@@ -1,6 +1,6 @@
 # Creating Ethereum raw transactions 
 
-Full article guide on [Etherscan API docs.](https://docs.etherscan.io/tutorials/read-write-contract-using-abis)
+Full article guide on [Etherscan API docs.](https://docs.etherscan.io/tutorials/signing-raw-transactions)
 
 ### Prerequisites 
 
