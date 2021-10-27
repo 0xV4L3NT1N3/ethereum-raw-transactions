@@ -28,7 +28,7 @@ async function main() {
   console.log('Raw txhash string ' + rawTransaction);
 
   // pass the raw transaction hash to the "eth_sendRawTransaction" endpoint
-  let gethProxy = await fetch(`https://api-kovan.etherscan.io/api?module=proxy&action=eth_sendRawTransaction&hex=${rawTransaction}&apikey=YourApiKeyToken`);
+  let gethProxy = await fetch(`https://api-ropsten.etherscan.io/api?module=proxy&action=eth_sendRawTransaction&hex=${rawTransaction}&apikey=YourApiKeyToken`);
   let response = await gethProxy.json();
 
   // print the API response  
